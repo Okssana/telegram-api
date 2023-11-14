@@ -37,7 +37,7 @@ stopwords1 = pd.read_csv(url, header=None)
 stopwords1 = stopwords1[0].tolist()
 
 ### Source-2 ###
-stopwords2_file = '/Users/Oksana/Documents/ALEPH/Network Analysis/rotor_emails_7504/ru_stop_words/stop_words_russian.txt'
+stopwords2_file = 'stop_words_russian.txt'
 # Read file stopwords2
 with open(stopwords2_file, 'r') as file:
     stopwords2 = file.read()
