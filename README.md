@@ -8,6 +8,10 @@ There are two ways to fetch data from Telegram:
 
 In this repo there is .ipynb file where a chat history in html format was parsed. 
 
+## Stopwords for a ru language 
+
+*stopwords_emails_ru.py" contains stop words in ru language. It combines several publicly avaliable datasets and stopwords I've added manually. 
+
 
 # Step-1: Register a TG account
 
@@ -34,3 +38,19 @@ In the file *tg_api_session.py* we establish a session.
 In the terminal run a command python3 *tg_api_session.py* which is going to create a session file with credentials and a session's info.
 
 After this we can move to *tg_api_data.ipynb* file and fetch the actual data. 
+
+
+# Step-4
+
+*tg_api_data.ipynb* contains the basics of API. 
+
+I'll expand this jupiter notebook in the future. 
+
+
+# Step-5
+
+*chat_Rosich.ipynb* contains cleaning, time analysis, extraction of entities, text analysis (where we use stopwords) of a specific TG channel. However code is universal, so you can use any of TG channels. 
+
+# Step-6 
+
+*russian_names.ipynb* includes an extraction of ru names from a text. 
