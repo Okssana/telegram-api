@@ -29,7 +29,7 @@ We need them to create a session in our Python code.
 
 TG channels:
 
-In the file **tg_api_session.py** we establish a session.
+In the file **`tg_api_session.py`** we establish a session.
 
 Install a library:
 
