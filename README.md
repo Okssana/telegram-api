@@ -45,40 +45,42 @@ python3 tg_api_session.py
 
 which is going to create a session file with credentials and a session's info.
 
-After this we can move to **tg_api_data**.**ipynb** file and fetch the actual data.
-
-### Step-4
+After this we can move to `tg_api_data.ipynb` file and fetch the actual data.Step-4
 
 `tg_api_forw.ipynb`  contains a code for obtaining forwarded messages
 
-`tg_api_data.ipynb`  contains the basics of API.
+`tg_api_data.ipynb` contains the basics of API.
 
-### Step-5
+### Step-5: Working with data
 
-**chat_Rosich.ipynb** contains:
+In order to work with data obtained by the method "Export chat history" using an app, open the Jupiter notebook `chat_Rosich.ipynb` which contains:
 
-* cleaning,
-* time analysis,
-* extraction of entities,
-* text analysis (where we use stopwords) of a specific TG channel.
+* Cleaning,
+* Time analysis,
+* Extraction of entities,
+* Text analysis (where we use stopwords).
 
-Furthermore code is universal, so you can use any of TG channels.
+Furthermore, code is universal, so you can apply it to any of TG channels.
 
-### Step-6
+### Step-6: TG channels
 
-[](https://github.com/Okssana/telegram-api#step-6)
+The list of TG channels.
 
-https://t.me/lobaev_vlad
+https://docs.google.com/spreadsheets/d/1Mkn46uMcwH0-aHck0A389xbbCyfqXfQ2X5oSi9wLlEY/edit?usp=sharing
 
 ## **Technical setup**
 
-**A virtual environment - tg_api_tool**
+**Create a virtual environment: in my case it's  `tg_api_tool. `**
+
+An example of activation a virtual environment:
 
 ```
 pyenv virtualenv 3.10.6 tg_api_tool
 ```
 
 ## Errors
+
+To be continued.
 
 ## Stopwords for a ru language
 
