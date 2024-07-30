@@ -25,7 +25,7 @@ Obtain an App configuration:
 
 We need them to create a session in our Python code.
 
-### Step-3
+### Step-3: Gather data
 
 TG channels:
 
@@ -51,9 +51,15 @@ After this we can move to `tg_api_data.ipynb` file and fetch the actual data.Ste
 
 `tg_api_data.ipynb` contains the basics of API.
 
+### Step-4: Build Network. Analyze TG stats. 
+
+After we are done with downloading TG channels in `tg_api_forw.ipynb`, we can move forward to building a data frame needed for Gephi. 
+
+Open `tg_api_forw_network.ipynb`
+
 ### Step-5: Working with data
 
-In order to work with data obtained by the method "Export chat history" using an app, open the Jupiter notebook `chat_Rosich.ipynb` which contains:
+In order to work with data obtained by the method* **"Export chat history"** *using an app, open the Jupiter notebook `chat_Rosich.ipynb` which contains:
 
 * Cleaning,
 * Time analysis,
@@ -68,6 +74,13 @@ The list of TG channels.
 
 https://docs.google.com/spreadsheets/d/1Mkn46uMcwH0-aHck0A389xbbCyfqXfQ2X5oSi9wLlEY/edit?usp=sharing
 
+
+### Users by location
+
+`tg_api_users_by_location.py`
+
+Set a long and a lat for you location and gather users nearby this point. 
+
 ## **Technical setup**
 
 **Create a virtual environment: in my case it's  `tg_api_tool. `**
@@ -79,6 +92,12 @@ pyenv virtualenv 3.10.6 tg_api_tool
 ```
 
 ## Errors
+
+Unresolved:
+
+*Telegram is having internal issues RpcCallFailError: Telegram is having internal issues, please try again later. (caused by GetHistoryRequest)*
+
+
 
 To be continued.
 
